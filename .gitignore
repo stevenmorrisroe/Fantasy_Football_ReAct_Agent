@@ -28,5 +28,3 @@ ENV/
 *.swp
 *.swo
 .ipynb_checkpoints/
-storage/
-agent.ipynb 
