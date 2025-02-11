@@ -25,26 +25,16 @@ git clone https://github.com/yourusername/fantasy-football-agent.git
 cd fantasy-football-agent
 ```
 
-2. Install dependencies:
-```bash
-pip install llama-index-llms-openai
-pip install llama-index-readers-file
-pip install llama-index-embeddings-openai
-```
-
-3. Set up your OpenAI API key:
+2. Set up your OpenAI API key:
 ```python
 import os
 os.environ["OPENAI_API_KEY"] = "your-api-key"
 ```
 
-4. Add your draft rankings PDFs to the `data/Fantasy-Football-2024/` directory:
-- CheatSheet_1.pdf
-- CheatSheet_2.pdf
+3. Customize by adding your own docs or changing the strategy
 
 ## How It Works
 
-The agent uses a sophisticated process to make draft recommendations:
 
 1. **Document Indexing**: 
 - Creates vector store indexes of multiple draft rankings
